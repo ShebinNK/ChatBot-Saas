@@ -1,16 +1,54 @@
-# Node.js
-node_modules/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Environment variables
-.env
-
-# TypeScript
+# Ignore the dist folder
 dist/
 
-# Build output
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables file (if applicable)
+.env
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Ignore TypeScript config
+tsconfig.json
+
+# Ignore production build output (if applicable)
 build/
+
+# Optional: Ignore editor/project-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore coverage directory if using any testing framework
+coverage/
+
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# Common lock files
+package-lock.json
+yarn.lock
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
